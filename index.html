@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Meta Description -->
+    <meta name="description"
+        content="I’m a Front-End Developer specializing in Vue.js and UI/UX design. I create responsive, user-centered web interfaces with a focus on performance and clean code." />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="Front-End Developer, Vue.js Developer, UI UX Designer, Responsive Web Design, Web Performance, Single Page Applications, JavaScript, CSS, HTML" />
+
+    <!-- Robots Meta -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Vue.js Front-End Developer | UI/UX Specialist" />
+    <meta property="og:description"
+        content="Crafting engaging, performant web experiences using Vue.js and modern UI/UX principles. Let’s build something users will love." />
+    <meta property="og:image" content="img/og-image.png" />
+    <meta property="og:url" content="https://yourportfolio.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vue.js Front-End Developer | UI/UX Specialist" />
+    <meta name="twitter:description"
+        content="Front-End Developer with expertise in Vue.js, UI/UX design, and responsive web development. Focused on building modern, fast, and accessible websites." />
+    <meta name="twitter:image" content="img/og-image.png" />
+    <meta name="twitter:site" content="@YourTwitterHandle" />
+    <meta name="twitter:creator" content="@YourTwitterHandle" />
+
+</head>
+
+<body>
+    <header>
+        <!-- Mobile header -->
+        <div class="mobile-header">
+            <button class="mobile-nav-toggle" id="openNav">&#9776;</button>
+            <div class="mobile-logo">Tarek</div>
+        </div>
+
+        <!-- Desktop navbar -->
+        <div class="wrapper">
+            <div class="container">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#landing">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#portfolio">Recent work</a></li>
+                        <li><a href="#contact-us-form">Get In Touch</a></li>
+                    </ul>
+                    <div class="logo">Tarek</div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Side menu -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+           <a href="#landing">Home</a>
+           <a href="#services">Services</a>
+           <a href="#about">About Me</a>
+           <a href="#portfolio">Recent work</a>
+          <a href="#contact-us-form">Get In Touch</a>
+        </div>
+    </header>
+    <!-- starting landing -->
+
+    <div class="landing" id="landing">
+        <div class="container">
+            <div class="landing-container">
+                <div class="landing-text">
+                    <h4>Hi im Tarek Ibrahim</h4>
+                    <p><span>A FRONT-END DEVELOPER WITH VEU JS </span> strong experience in building responsive,
+                        user-friendly
+                        websites and web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks like
+                        Vue.js
+                        and Bootstrap. Committed to clean code practices, performance optimization, and seamless user
+                        experience. Continuously learning and staying up to date with the latest trends in front-end
+                        development.</p>
+                    <div class="landing-btns">
+                        <a href="#" class="left-btn">Hire Me</a>
+                        <a href="#" class="right-btn">Download CV</a>
+                    </div>
+                </div>
+                <div class="landing-img">
+                    <img src="./imges/me.png">
+                </div>
+            </div>
+            <div class="skills-bar">
+                <div class="skill-btn">UI Design</div>
+                <div class="skill-btn">Front-End Development</div>
+                <div class="skill-btn">Responsive Design</div>
+                <div class="skill-btn">Performance Optimization</div>
+                <div class="skill-btn">Code Review</div>
+            </div>
+        </div>
+    </div>
+    <!--landing end-->
+
+    <!--services start-->
+    <div class="services-container" id="services">
+        <div class="container">
+            <section class="services-section">
+
+                <div class="main-header">
+                    <h3>services</h3>
+                    <h4>Design that solves problems, not just looks good</h4>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon">🎨</div>
+                        <h3>UI Design</h3>
+                        <p>Clean and modern interfaces that match user needs.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">💻</div>
+                        <h3>Front-End Dev</h3>
+                        <p>Build fast and responsive websites using modern tech.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">📱</div>
+                        <h3>Mobile Responsive</h3>
+                        <p>Ensure perfect experience across all screen sizes.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">⚙️</div>
+                        <h3>Performance</h3>
+                        <p>Optimize speed and reduce loading times effectively.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">🛠️</div>
+                        <h3>Code Review</h3>
+                        <p>Clean, maintainable code with best practices.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">🚀</div>
+                        <h3>SEO Ready</h3>
+                        <p>Improve visibility and ranking on search engines.</p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--services end-->
+
+    <!--about start-->
+
+    <div class="container">
+        <section class="about" id="about">
+            <div class="main-header">
+                <h3>About Me</h3>
+                <h4>Skilled in HTML, CSS, JavaScript, and frameworks like Vue.js, I specialize in turning UI/UX designs
+                    into</h4>
+            </div>
+            <div class="about-container">
+                <div class="about-img"><img src="./imges/me.png"> </div>
+                <div class="about-text">
+                    <p>As a passionate and detail-oriented Front-End Developer, I specialize in creating visually
+                        appealing, responsive, and user-friendly interfaces that deliver seamless digital experiences.
+                        With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js and
+                        Bootstrap, I translate complex UI/UX designs into clean, maintainable code that performs
+                        efficiently across all devices. I have hands-on experience integrating APIs, optimizing web
+                        performance, and ensuring accessibility and SEO best practices are met. I’m continuously
+                        learning and adapting to the latest trends in front-end development, and I take pride in writing
+                        modular, scalable code using version control tools like Git and GitHub. Whether it's building a
+                        landing page, a dashboard, or a full-scale SPA, I’m driven by a deep commitment to both
+                        technical excellence and user satisfaction, collaborating effectively with designers and
+                        back-end teams to bring projects from concept to deployment.</p>
+                    <div class="landing-btns">
+                        <a href="#" class="right-btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="progress-wrapper" data-percentage="100">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">100%</div>
+                    <div class="label">HTML</div>
+                </div>
+
+                <div class="progress-wrapper" data-percentage="95">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">95%</div>
+                    <div class="label">CSS</div>
+                </div>
+
+
+                <div class="progress-wrapper" data-percentage="70">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">70%</div>
+                    <div class="label">js</div>
+                </div>
+
+
+                <div class="progress-wrapper" data-percentage="70">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">70%</div>
+                    <div class="label">Vue.js</div>
+                </div>
+
+                <div class="progress-wrapper" data-percentage="90">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">90%</div>
+                    <div class="label">Bootstrap</div>
+                </div>
+
+
+                <div class="progress-wrapper" data-percentage="80">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">80%</div>
+                    <div class="label">Figma</div>
+                </div>
+
+                <div class="progress-wrapper" data-percentage="80">
+                    <svg class="progress-ring" width="100" height="100">
+                        <circle class="bg" cx="50" cy="50" r="45" />
+                        <circle class="progress" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="percent-text">80%</div>
+                    <div class="label">Photo Shop</div>
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+    <!--about end-->
+
+    <!--portfolio start-->
+    <div class="portfolio-container" id="portfolio">
+        <div class="container">
+            <section class="portfolio">
+                <h2>Portfolio</h2>
+
+                <div class="filter-buttons">
+                    <button class="active" data-filter="all">All</button>
+                    <button data-filter="web">Web Design</button>
+                    <button data-filter="mobile">Mobile App Design</button>
+                    <button data-filter="desktop">Desktop App</button>
+                    <button data-filter="braiding">Braiding</button>
+                </div>
+
+                <div class="portfolio-gallery">
+                    <div class="portfolio-item web">
+                        <img src="./imges/offok-one.png" alt="offok" />
+                        <img src="./imges/offok-two.png" alt="offok" />
+                        <p>offok</p>
+                    </div>
+                    <div class="portfolio-item web">
+                        <img src="./imges/fareq-one.png" alt="fareq" />
+                        <img src="./imges/fareq-two.png" alt="fareq" />
+                        <p>fareq</p>
+                    </div>
+                    <div class="portfolio-item web">
+                        <img src="./imges/shop-one.png" alt="shop" />
+                        <img src="./imges/shop-two.png" alt="shop" />
+                        <p>shop.co</p>
+                    </div>
+                    <div class="portfolio-item mobile">
+                        <img src="./imges/marv-one.png" alt="marvel" />
+                        <img src="./imges/marv-two.png" alt="marvel" />
+                        <p>marvel moves</p>
+                    </div>
+                    <div class="portfolio-item desktop">
+                        <img src="./imges/soft-one.png" alt="software" />
+                        <img src="./imges/soft-two.png" alt="software" />
+                        <p>software</p>
+                    </div>
+                    <div class="portfolio-item mobile">
+                        <img src="./imges/freight-one.png" alt="freight" />
+                        <img src="./imges/freight-two.png" alt="freight" />
+                        <p>freight zone</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <!--portfolio end-->
+
+    <!--form start-->
+
+    <div class="container">
+        <section class="contact-us-form" id="contact-us-form">
+            <div class="form-header">
+                <h1>Get In Touch</h1>
+                <h2>Fuel Your Brand’s Goals with <span>Beyond</span></h2>
+                <p>You will get a response within 24 hours. We will explain in details how we can help you<br> fuel and
+                    grow
+                    your brand within the stated budget.</p>
+            </div>
+            <div class="form-wrapper">
+                <form class="custom-form">
+                    <input type="text" placeholder="Full Name" required />
+                    <input type="email" placeholder="Email Address" required />
+                    <input type="tel" placeholder="Phone Number" required />
+                    <input type="text" placeholder="Subject" required />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!--form end-->
+
+    <!--footer start-->
+    <div class="footer-container">
+        <div class="container">
+            <footer class="footer">
+                <div class="footer-content">
+                    <h2 class="footer-title">Tarek Ebrahim</h2>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                    <p class="footer-copy">© 2025 Tarek Ebrahim. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+ <button id="scrollTopBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!--footer end-->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
